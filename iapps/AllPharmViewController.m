@@ -111,7 +111,7 @@
     NSLog(@"didUpdateToLocation: %@", newLocation);
     CLLocation *currentLocation = newLocation;
     
-    if (currentLocation != nil) {
+    if (currentLocation != nil && ![filteredArray count]) {
         [locationManager stopUpdatingLocation];
         NSString * lat = [[NSString alloc] initWithFormat:@"%f", newLocation.coordinate.latitude];
         NSString * lon = [[NSString alloc] initWithFormat:@"%f", newLocation.coordinate.longitude];
