@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "getPharms.h"
+#import "AllPharmViewController.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate,getPharmsDelegate>{
+    getPharms* _getPharms;
+    AllPharmViewController* allPharmViewController;
+    
+}
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property(nonatomic, retain) UINavigationController *navController;
 @end

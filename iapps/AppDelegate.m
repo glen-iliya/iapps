@@ -9,9 +9,13 @@
 #import "AppDelegate.h"
 
 @implementation AppDelegate
+@synthesize navController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    _getPharms = [[getPharms alloc]init];
+    _getPharms.delegate = self;
+    [_getPharms getPharmsRequest];
     // Override point for customization after application launch.
     return YES;
 }
@@ -42,5 +46,27 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+-(void) getPharmsRequestSuccess:(NSArray*)arrayOfPharms{
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    allPharmViewController = [[AllPharmViewController alloc]initWithStyle:UITableViewStylePlain andPharms:arrayOfPharms];
+    self.navController=[[UINavigationController alloc]initWithRootViewController:allPharmViewController];
+    self.window.rootViewController = navController;
+    [self.window makeKeyAndVisible];
+}
+
+-(void) getPharmsRequestFailure{
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Please check your network and try again"
+                                                    message:nil delegate:self
+                                          cancelButtonTitle:@"OK" otherButtonTitles: nil];
+    [alert show];
+   
+}
+
+-(void)dealloc{
+    _getPharms.delegate = nil;
+}
+
+
 
 @end
