@@ -7,20 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45E3492B1877891900C3DB81 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E3492A1877891900C3DB81 /* CoreLocation.framework */; };
+		45E3495F1877A53800C3DB81 /* SinglePharmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E3495D1877A53800C3DB81 /* SinglePharmViewController.m */; };
+		45E349601877A53800C3DB81 /* SinglePharmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45E3495E1877A53800C3DB81 /* SinglePharmViewController.xib */; };
 		45F543BA187714DC00E8DBF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F543B9187714DC00E8DBF6 /* Foundation.framework */; };
 		45F543BC187714DC00E8DBF6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F543BB187714DC00E8DBF6 /* CoreGraphics.framework */; };
 		45F543BE187714DC00E8DBF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F543BD187714DC00E8DBF6 /* UIKit.framework */; };
 		45F543C4187714DC00E8DBF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45F543C2187714DC00E8DBF6 /* InfoPlist.strings */; };
 		45F543C6187714DC00E8DBF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F543C5187714DC00E8DBF6 /* main.m */; };
 		45F543CA187714DC00E8DBF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F543C9187714DC00E8DBF6 /* AppDelegate.m */; };
-		45F543CD187714DC00E8DBF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F543CB187714DC00E8DBF6 /* Main.storyboard */; };
-		45F543D0187714DC00E8DBF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F543CF187714DC00E8DBF6 /* ViewController.m */; };
 		45F543D2187714DC00E8DBF6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F543D1187714DC00E8DBF6 /* Images.xcassets */; };
 		45F543D9187714DC00E8DBF6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F543D8187714DC00E8DBF6 /* XCTest.framework */; };
 		45F543DA187714DC00E8DBF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F543B9187714DC00E8DBF6 /* Foundation.framework */; };
 		45F543DB187714DC00E8DBF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F543BD187714DC00E8DBF6 /* UIKit.framework */; };
 		45F543E3187714DC00E8DBF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45F543E1187714DC00E8DBF6 /* InfoPlist.strings */; };
 		45F543E5187714DC00E8DBF6 /* iappsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F543E4187714DC00E8DBF6 /* iappsTests.m */; };
+		45F5443518771B7700E8DBF6 /* AllPharmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F5443318771B7700E8DBF6 /* AllPharmViewController.m */; };
+		45F5443618771B7700E8DBF6 /* AllPharmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45F5443418771B7700E8DBF6 /* AllPharmViewController.xib */; };
+		45F5444E18771FC200E8DBF6 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F5443918771FC200E8DBF6 /* ASIAuthenticationDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		45F5444F18771FC200E8DBF6 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F5443C18771FC200E8DBF6 /* ASIDataCompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		45F5445018771FC200E8DBF6 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F5443E18771FC200E8DBF6 /* ASIDataDecompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		45F5445118771FC200E8DBF6 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F5444018771FC200E8DBF6 /* ASIDownloadCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		45F5445218771FC200E8DBF6 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F5444218771FC200E8DBF6 /* ASIFormDataRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		45F5445318771FC200E8DBF6 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F5444418771FC200E8DBF6 /* ASIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		45F5445418771FC200E8DBF6 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F5444818771FC200E8DBF6 /* ASIInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		45F5445518771FC200E8DBF6 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F5444A18771FC200E8DBF6 /* ASINetworkQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		45F5445618771FC200E8DBF6 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F5444D18771FC200E8DBF6 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		45F544581877200B00E8DBF6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F544571877200B00E8DBF6 /* CFNetwork.framework */; };
+		45F5445A1877201600E8DBF6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F544591877201600E8DBF6 /* SystemConfiguration.framework */; };
+		45F5445C1877202000E8DBF6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F5445B1877202000E8DBF6 /* MobileCoreServices.framework */; };
+		45F5445E1877203600E8DBF6 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F5445D1877203600E8DBF6 /* libz.dylib */; };
+		45F544611877206100E8DBF6 /* getPharms.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F544601877206100E8DBF6 /* getPharms.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45E3492A1877891900C3DB81 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		45E3495C1877A53800C3DB81 /* SinglePharmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SinglePharmViewController.h; path = iapps/SinglePharmViewController.h; sourceTree = "<group>"; };
+		45E3495D1877A53800C3DB81 /* SinglePharmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SinglePharmViewController.m; path = iapps/SinglePharmViewController.m; sourceTree = "<group>"; };
+		45E3495E1877A53800C3DB81 /* SinglePharmViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SinglePharmViewController.xib; path = iapps/SinglePharmViewController.xib; sourceTree = "<group>"; };
 		45F543B6187714DC00E8DBF6 /* iapps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iapps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F543B9187714DC00E8DBF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		45F543BB187714DC00E8DBF6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,15 +65,43 @@
 		45F543C7187714DC00E8DBF6 /* iapps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iapps-Prefix.pch"; sourceTree = "<group>"; };
 		45F543C8187714DC00E8DBF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		45F543C9187714DC00E8DBF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		45F543CC187714DC00E8DBF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		45F543CE187714DC00E8DBF6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		45F543CF187714DC00E8DBF6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		45F543D1187714DC00E8DBF6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		45F543D7187714DC00E8DBF6 /* iappsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iappsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F543D8187714DC00E8DBF6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		45F543E0187714DC00E8DBF6 /* iappsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iappsTests-Info.plist"; sourceTree = "<group>"; };
 		45F543E2187714DC00E8DBF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		45F543E4187714DC00E8DBF6 /* iappsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iappsTests.m; sourceTree = "<group>"; };
+		45F5443218771B7700E8DBF6 /* AllPharmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AllPharmViewController.h; path = iapps/AllPharmViewController.h; sourceTree = "<group>"; };
+		45F5443318771B7700E8DBF6 /* AllPharmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AllPharmViewController.m; path = iapps/AllPharmViewController.m; sourceTree = "<group>"; };
+		45F5443418771B7700E8DBF6 /* AllPharmViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AllPharmViewController.xib; path = iapps/AllPharmViewController.xib; sourceTree = "<group>"; };
+		45F5443818771FC200E8DBF6 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIAuthenticationDialog.h; path = iapps/ASiNetwork/ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		45F5443918771FC200E8DBF6 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIAuthenticationDialog.m; path = iapps/ASiNetwork/ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		45F5443A18771FC200E8DBF6 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASICacheDelegate.h; path = iapps/ASiNetwork/ASICacheDelegate.h; sourceTree = "<group>"; };
+		45F5443B18771FC200E8DBF6 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIDataCompressor.h; path = iapps/ASiNetwork/ASIDataCompressor.h; sourceTree = "<group>"; };
+		45F5443C18771FC200E8DBF6 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIDataCompressor.m; path = iapps/ASiNetwork/ASIDataCompressor.m; sourceTree = "<group>"; };
+		45F5443D18771FC200E8DBF6 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIDataDecompressor.h; path = iapps/ASiNetwork/ASIDataDecompressor.h; sourceTree = "<group>"; };
+		45F5443E18771FC200E8DBF6 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIDataDecompressor.m; path = iapps/ASiNetwork/ASIDataDecompressor.m; sourceTree = "<group>"; };
+		45F5443F18771FC200E8DBF6 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIDownloadCache.h; path = iapps/ASiNetwork/ASIDownloadCache.h; sourceTree = "<group>"; };
+		45F5444018771FC200E8DBF6 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIDownloadCache.m; path = iapps/ASiNetwork/ASIDownloadCache.m; sourceTree = "<group>"; };
+		45F5444118771FC200E8DBF6 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIFormDataRequest.h; path = iapps/ASiNetwork/ASIFormDataRequest.h; sourceTree = "<group>"; };
+		45F5444218771FC200E8DBF6 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIFormDataRequest.m; path = iapps/ASiNetwork/ASIFormDataRequest.m; sourceTree = "<group>"; };
+		45F5444318771FC200E8DBF6 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIHTTPRequest.h; path = iapps/ASiNetwork/ASIHTTPRequest.h; sourceTree = "<group>"; };
+		45F5444418771FC200E8DBF6 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIHTTPRequest.m; path = iapps/ASiNetwork/ASIHTTPRequest.m; sourceTree = "<group>"; };
+		45F5444518771FC200E8DBF6 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIHTTPRequestConfig.h; path = iapps/ASiNetwork/ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		45F5444618771FC200E8DBF6 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIHTTPRequestDelegate.h; path = iapps/ASiNetwork/ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		45F5444718771FC200E8DBF6 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIInputStream.h; path = iapps/ASiNetwork/ASIInputStream.h; sourceTree = "<group>"; };
+		45F5444818771FC200E8DBF6 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIInputStream.m; path = iapps/ASiNetwork/ASIInputStream.m; sourceTree = "<group>"; };
+		45F5444918771FC200E8DBF6 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASINetworkQueue.h; path = iapps/ASiNetwork/ASINetworkQueue.h; sourceTree = "<group>"; };
+		45F5444A18771FC200E8DBF6 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASINetworkQueue.m; path = iapps/ASiNetwork/ASINetworkQueue.m; sourceTree = "<group>"; };
+		45F5444B18771FC200E8DBF6 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIProgressDelegate.h; path = iapps/ASiNetwork/ASIProgressDelegate.h; sourceTree = "<group>"; };
+		45F5444C18771FC200E8DBF6 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = iapps/ASiNetwork/Reachability.h; sourceTree = "<group>"; };
+		45F5444D18771FC200E8DBF6 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = iapps/ASiNetwork/Reachability.m; sourceTree = "<group>"; };
+		45F544571877200B00E8DBF6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		45F544591877201600E8DBF6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		45F5445B1877202000E8DBF6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		45F5445D1877203600E8DBF6 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		45F5445F1877206100E8DBF6 /* getPharms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = getPharms.h; path = iapps/getPharms.h; sourceTree = "<group>"; };
+		45F544601877206100E8DBF6 /* getPharms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = getPharms.m; path = iapps/getPharms.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +109,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45E3492B1877891900C3DB81 /* CoreLocation.framework in Frameworks */,
+				45F5445E1877203600E8DBF6 /* libz.dylib in Frameworks */,
 				45F543BC187714DC00E8DBF6 /* CoreGraphics.framework in Frameworks */,
+				45F5445C1877202000E8DBF6 /* MobileCoreServices.framework in Frameworks */,
+				45F5445A1877201600E8DBF6 /* SystemConfiguration.framework in Frameworks */,
+				45F544581877200B00E8DBF6 /* CFNetwork.framework in Frameworks */,
 				45F543BE187714DC00E8DBF6 /* UIKit.framework in Frameworks */,
 				45F543BA187714DC00E8DBF6 /* Foundation.framework in Frameworks */,
 			);
@@ -82,6 +136,9 @@
 		45F543AD187714DC00E8DBF6 = {
 			isa = PBXGroup;
 			children = (
+				45F544A21877461800E8DBF6 /* SinglePharmView */,
+				45F5443018771B0C00E8DBF6 /* AllPharmTableView */,
+				45F5442F1877173700E8DBF6 /* Network */,
 				45F543BF187714DC00E8DBF6 /* iapps */,
 				45F543DE187714DC00E8DBF6 /* iappsTests */,
 				45F543B8187714DC00E8DBF6 /* Frameworks */,
@@ -101,6 +158,11 @@
 		45F543B8187714DC00E8DBF6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				45E3492A1877891900C3DB81 /* CoreLocation.framework */,
+				45F5445D1877203600E8DBF6 /* libz.dylib */,
+				45F5445B1877202000E8DBF6 /* MobileCoreServices.framework */,
+				45F544591877201600E8DBF6 /* SystemConfiguration.framework */,
+				45F544571877200B00E8DBF6 /* CFNetwork.framework */,
 				45F543B9187714DC00E8DBF6 /* Foundation.framework */,
 				45F543BB187714DC00E8DBF6 /* CoreGraphics.framework */,
 				45F543BD187714DC00E8DBF6 /* UIKit.framework */,
@@ -114,9 +176,6 @@
 			children = (
 				45F543C8187714DC00E8DBF6 /* AppDelegate.h */,
 				45F543C9187714DC00E8DBF6 /* AppDelegate.m */,
-				45F543CB187714DC00E8DBF6 /* Main.storyboard */,
-				45F543CE187714DC00E8DBF6 /* ViewController.h */,
-				45F543CF187714DC00E8DBF6 /* ViewController.m */,
 				45F543D1187714DC00E8DBF6 /* Images.xcassets */,
 				45F543C0187714DC00E8DBF6 /* Supporting Files */,
 			);
@@ -150,6 +209,65 @@
 				45F543E1187714DC00E8DBF6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45F5442F1877173700E8DBF6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				45F5443718771FB300E8DBF6 /* ASI */,
+				45F5445F1877206100E8DBF6 /* getPharms.h */,
+				45F544601877206100E8DBF6 /* getPharms.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		45F5443018771B0C00E8DBF6 /* AllPharmTableView */ = {
+			isa = PBXGroup;
+			children = (
+				45F5443218771B7700E8DBF6 /* AllPharmViewController.h */,
+				45F5443318771B7700E8DBF6 /* AllPharmViewController.m */,
+				45F5443418771B7700E8DBF6 /* AllPharmViewController.xib */,
+			);
+			name = AllPharmTableView;
+			sourceTree = "<group>";
+		};
+		45F5443718771FB300E8DBF6 /* ASI */ = {
+			isa = PBXGroup;
+			children = (
+				45F5443818771FC200E8DBF6 /* ASIAuthenticationDialog.h */,
+				45F5443918771FC200E8DBF6 /* ASIAuthenticationDialog.m */,
+				45F5443A18771FC200E8DBF6 /* ASICacheDelegate.h */,
+				45F5443B18771FC200E8DBF6 /* ASIDataCompressor.h */,
+				45F5443C18771FC200E8DBF6 /* ASIDataCompressor.m */,
+				45F5443D18771FC200E8DBF6 /* ASIDataDecompressor.h */,
+				45F5443E18771FC200E8DBF6 /* ASIDataDecompressor.m */,
+				45F5443F18771FC200E8DBF6 /* ASIDownloadCache.h */,
+				45F5444018771FC200E8DBF6 /* ASIDownloadCache.m */,
+				45F5444118771FC200E8DBF6 /* ASIFormDataRequest.h */,
+				45F5444218771FC200E8DBF6 /* ASIFormDataRequest.m */,
+				45F5444318771FC200E8DBF6 /* ASIHTTPRequest.h */,
+				45F5444418771FC200E8DBF6 /* ASIHTTPRequest.m */,
+				45F5444518771FC200E8DBF6 /* ASIHTTPRequestConfig.h */,
+				45F5444618771FC200E8DBF6 /* ASIHTTPRequestDelegate.h */,
+				45F5444718771FC200E8DBF6 /* ASIInputStream.h */,
+				45F5444818771FC200E8DBF6 /* ASIInputStream.m */,
+				45F5444918771FC200E8DBF6 /* ASINetworkQueue.h */,
+				45F5444A18771FC200E8DBF6 /* ASINetworkQueue.m */,
+				45F5444B18771FC200E8DBF6 /* ASIProgressDelegate.h */,
+				45F5444C18771FC200E8DBF6 /* Reachability.h */,
+				45F5444D18771FC200E8DBF6 /* Reachability.m */,
+			);
+			name = ASI;
+			sourceTree = "<group>";
+		};
+		45F544A21877461800E8DBF6 /* SinglePharmView */ = {
+			isa = PBXGroup;
+			children = (
+				45E3495C1877A53800C3DB81 /* SinglePharmViewController.h */,
+				45E3495D1877A53800C3DB81 /* SinglePharmViewController.m */,
+				45E3495E1877A53800C3DB81 /* SinglePharmViewController.xib */,
+			);
+			name = SinglePharmView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +346,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45E349601877A53800C3DB81 /* SinglePharmViewController.xib in Resources */,
 				45F543D2187714DC00E8DBF6 /* Images.xcassets in Resources */,
+				45F5443618771B7700E8DBF6 /* AllPharmViewController.xib in Resources */,
 				45F543C4187714DC00E8DBF6 /* InfoPlist.strings in Resources */,
-				45F543CD187714DC00E8DBF6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +368,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45F543D0187714DC00E8DBF6 /* ViewController.m in Sources */,
+				45E3495F1877A53800C3DB81 /* SinglePharmViewController.m in Sources */,
+				45F5444F18771FC200E8DBF6 /* ASIDataCompressor.m in Sources */,
 				45F543CA187714DC00E8DBF6 /* AppDelegate.m in Sources */,
+				45F5445318771FC200E8DBF6 /* ASIHTTPRequest.m in Sources */,
+				45F5444E18771FC200E8DBF6 /* ASIAuthenticationDialog.m in Sources */,
+				45F5445218771FC200E8DBF6 /* ASIFormDataRequest.m in Sources */,
+				45F5443518771B7700E8DBF6 /* AllPharmViewController.m in Sources */,
+				45F5445418771FC200E8DBF6 /* ASIInputStream.m in Sources */,
 				45F543C6187714DC00E8DBF6 /* main.m in Sources */,
+				45F544611877206100E8DBF6 /* getPharms.m in Sources */,
+				45F5445518771FC200E8DBF6 /* ASINetworkQueue.m in Sources */,
+				45F5445018771FC200E8DBF6 /* ASIDataDecompressor.m in Sources */,
+				45F5445618771FC200E8DBF6 /* Reachability.m in Sources */,
+				45F5445118771FC200E8DBF6 /* ASIDownloadCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,14 +410,6 @@
 				45F543C3187714DC00E8DBF6 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		45F543CB187714DC00E8DBF6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				45F543CC187714DC00E8DBF6 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		45F543E1187714DC00E8DBF6 /* InfoPlist.strings */ = {
@@ -460,6 +582,7 @@
 				45F543EA187714DC00E8DBF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45F543EB187714DC00E8DBF6 /* Build configuration list for PBXNativeTarget "iappsTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +591,7 @@
 				45F543ED187714DC00E8DBF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
